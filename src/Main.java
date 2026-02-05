@@ -47,7 +47,6 @@ public class Main {
 
         // Balaca olsun istiyirsense .toLowerCase
         System.out.println("Butun herfler kicik yazilir: " + myString.toLowerCase());
-
         // Stringin icinde her hansisa herfin ve ya sozun yerini, movqeyini tapmaq ucun .indexOf()
         String newString = "El bilir ki sen menimsen";
         System.out.println("1-ci yerde duran e-in qiymeti: " + newString.indexOf("e"));
