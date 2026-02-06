@@ -190,11 +190,14 @@ public class Main {
     System.out.println("En az yasli adam: " + lowestAge);
 
 
-    int[] findSecondLargest = {12,23,45,42,45,75,61,56,87,87,56,53,14,95,19,65};
+    /*int[] findSecondLargest = {12,23,45,42,45,75,61,56,87,87,56,53,14,95,19,65};
     Arrays.sort(findSecondLargest);
-    System.out.println(findSecondLargest);
-
-
+    System.out.println(Arrays.toString(findSecondLargest));*/
+    /* Find second largest ucun sort edib, arrayin uzunluqunu tapib ondan 1 cixim print edecekdim */
+    
+    
+    /* reverse array ise arrayin uzunluqunu tapib onu basqa bir 
+    deyisene = edib her defe cap etdikden sonra -1 cixacaqdim ta ki 0-a qeder */
 
 
     }
