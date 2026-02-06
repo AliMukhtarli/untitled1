@@ -3,16 +3,21 @@ public class Main {
         //qisa metn bu formada yailir
 
         /* uzun metn ise bele yazilir */
+        
+        
+        //Bunlar variables-lerdi yeni deyisenler
         int year = 2026;
         float price = 10.50f;
         boolean register = true;
         char character = 'C';
         String name = "Ali";
-        //Bunlar variables-lerdi yeni deyisenler
+        
 
         // 1 deyisenin final qiymetini vermek ucun final-dan istifade edirik
         final int money = 50;
-       /* data typlar ise primitive olanlar int, String, float, char, boolen-dir.
+      
+      
+        /* data typlar ise primitive olanlar int, String, float, char, boolen-dir.
        non-primitive data typlar ise String( coxlu chardan ibaret Array demek olar),
         Array ve Objectdir
         */
@@ -121,9 +126,9 @@ public class Main {
         case 7:
             System.out.println("7-ci gundur");
             break;
-            
     }
 
+    
 
     }
 
