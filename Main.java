@@ -126,9 +126,9 @@ public class Main {
         case 7:
             System.out.println("7-ci gundur");
             break;
-    }
+    } 
 
-    
+
 
     }
 
