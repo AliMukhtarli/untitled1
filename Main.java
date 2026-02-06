@@ -126,9 +126,42 @@ public class Main {
         case 7:
             System.out.println("7-ci gundur");
             break;
+    } 
+    
+
+    //buda while loop-a bir numunedir
+    int countdown = 10;
+    while(countdown>=0){
+        System.out.println("Yeni ile son: " + countdown);
+        countdown--;
+    
+    }
+    System.out.println("Yeni iliniz mubarek!!!");
+    
+    //Buda do/while loop-a numune
+    int doLoop = 4;
+    do{
+        System.out.println("Proqram gedisatindaki qiymet: " + doLoop);
+        doLoop--;
+    }
+    while(doLoop>0);
+    
+    //sadece cut ededleri cap eden for loop
+    for(int a = 0;a<=10; a=a+2){
+        System.out.println("Cut eded: " + a);
+    }
+
+
+    //vurma cedveli
+    for(int i = 1; i<=3; i++){
+        for(int j = 1; j<=3; j++){
+            System.out.print(i * j + " ");
+        }
+        System.out.println( );
     }
 
     
+
 
     }
 
