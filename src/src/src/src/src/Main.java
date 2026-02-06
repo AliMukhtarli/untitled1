@@ -1,23 +1,18 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main() {
         //qisa metn bu formada yailir
 
         /* uzun metn ise bele yazilir */
-        
-        
-        //Bunlar variables-lerdi yeni deyisenler
         int year = 2026;
         float price = 10.50f;
         boolean register = true;
         char character = 'C';
         String name = "Ali";
-        
+        //Bunlar variables-lerdi yeni deyisenler
 
         // 1 deyisenin final qiymetini vermek ucun final-dan istifade edirik
         final int money = 50;
-      
-      
-        /* data typlar ise primitive olanlar int, String, float, char, boolen-dir.
+       /* data typlar ise primitive olanlar int, String, float, char, boolen-dir.
        non-primitive data typlar ise String( coxlu chardan ibaret Array demek olar),
         Array ve Objectdir
         */
@@ -44,7 +39,7 @@ public class Main {
 
 
         // Stringin uzunluqunu olcmek ucun .length() istifade olunur
-        String myString = "İzdrasde";
+        String myString = "Izdrasde";
         System.out.println("Metnin uzunluqu: " + myString.length());
 
         // Verilen Stringde her sey boyuk yazilsin istiyirsense .toUpperCase
@@ -52,7 +47,6 @@ public class Main {
 
         // Balaca olsun istiyirsense .toLowerCase
         System.out.println("Butun herfler kicik yazilir: " + myString.toLowerCase());
-        
         // Stringin icinde her hansisa herfin ve ya sozun yerini, movqeyini tapmaq ucun .indexOf()
         String newString = "El bilir ki sen menimsen";
         System.out.println("1-ci yerde duran e-in qiymeti: " + newString.indexOf("e"));
@@ -73,8 +67,8 @@ public class Main {
 
         // Stringin evvelinde ve sonunda olan bosluqu silmek ucun .trim() istifade olunur
         String trim = "Ali Mukhtarli";
-        System.out.println("Bu stringin trimsiz hali: [   " + trim + "   ]"  );
-        System.out.println("Bu ise trimli hali: [" +     trim.trim() + "]");
+        System.out.println("Bu stringin trimsiz hali: [" + trim + "]"  );
+        System.out.println("Bu ise trimli hali: [" + trim.trim() + "]");
 
         //Neyise bir birine birlesdirmek ucun .concat()
         String nameConcat = "Ali";
@@ -86,47 +80,6 @@ public class Main {
         xususi isare isletmek ucun qarsisina \ isareni qoymaliyiq*/
         String xususiIsare = "Salam menim adim \"Ali Mukhtarli\"-dir";
         System.out.println("Indi \\ sayesinde dirnaq icinde dirnaq yaza bildim: " + xususiIsare);
-
-       //Normal if-den ferqli ve qisa formada yazilis qaydasi 
-       int time = 50;
-       String result = (time == 50)? "Vaxt tamam olub" : "Vaxt tam deyil";
-       System.out.println(result);
-
-    // ve ya bir basa printin icindede yaza bilersen
-    System.out.println((time<= 40)? "Artiq limiti asdiniz": "Siz davam ede bilersiniz");
-    
-    //ic ice (Nested)-de ise 
-    int il = 2025;
-    String message = (il==2026)? "Tarix dogrudur"
-                   : (il<2026)? "Tarix geridedir"
-                   :"Tarix ondedir";
-    System.out.println(message);
-
-    // Coxlu if else isletmekdense switch istifade etmek daha rahatdir
-    int gun = 6;
-    switch(gun){
-        case 1: 
-            System.out.println("1-ci gundur");
-            break;
-        case 2:
-            System.out.println("2-ci gundur");
-            break;
-        case 3:
-            System.out.println("3-cu gundur");
-            break;
-        case 4:
-            System.out.println("4-cu gundur");
-            break;
-        case 5:
-            System.out.println("5-ci gundur");
-            break;
-        case 6:
-            System.out.println("6-ci gundur");
-            break;
-        case 7:
-            System.out.println("7-ci gundur");
-            break;
-    } 
 
 
 

@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         //qisa metn bu formada yailir
@@ -6,15 +8,16 @@ public class Main {
         
         
         //Bunlar variables-lerdi yeni deyisenler
-        int year = 2026;
-        float price = 10.50f;
-        boolean register = true;
-        char character = 'C';
-        String name = "Ali";
+        //int year = 2026;
+        //float price = 10.50f;
+        //boolean register = true;
+        //char character = 'C';
+        //String name = "Ali";
         
 
         // 1 deyisenin final qiymetini vermek ucun final-dan istifade edirik
         final int money = 50;
+        System.out.println("Axirinci pulum: " + money);
       
       
         /* data typlar ise primitive olanlar int, String, float, char, boolen-dir.
@@ -160,7 +163,41 @@ public class Main {
         System.out.println( );
     }
 
+
+    //Array-larin yazilis terzi ve onlara giris terzi
+    String[] cars = {"merc", "bmw", "audi"};
+    System.out.println("Masinlarin atasi: " + cars[0]);
+    // burdada sayim 0-dan baslayir
+
+    //arrayin uzunluquda hemcinin length() ile olculur
+    System.out.println(cars.length);
+
+    //hansi oturacaqlarin kimler terefinden tutulduqunu gosdermek ucun bir array yazaq
+    String[] adlar = {"ali", "Mehemmed", "Nezrin", "Jasmin", "Ulvi", "Fidan"};
+    for(int i = 0; i<adlar.length; i++){
+        System.out.println("Oturacaq nomresi: " + i + " oturan adam: " + adlar[i]);
+    }
+
+    // Array arasinda en az yasli olanin tapilmasi
+    int yaslar[] = {12,46,56,89,39,32,84,29,19};
+    int lowestAge = yaslar[0];
+    for(int yas : yaslar){
+        if(lowestAge > yas ){
+            lowestAge = yas;
+        }
+
+    }
+    System.out.println("En az yasli adam: " + lowestAge);
+
+
+    /*int[] findSecondLargest = {12,23,45,42,45,75,61,56,87,87,56,53,14,95,19,65};
+    Arrays.sort(findSecondLargest);
+    System.out.println(Arrays.toString(findSecondLargest));*/
+    /* Find second largest ucun sort edib, arrayin uzunluqunu tapib ondan 1 cixim print edecekdim */
     
+    
+    /* reverse array ise arrayin uzunluqunu tapib onu basqa bir 
+    deyisene = edib her defe cap etdikden sonra -1 cixacaqdim ta ki 0-a qeder */
 
 
     }

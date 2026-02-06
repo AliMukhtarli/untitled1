@@ -199,6 +199,18 @@ public class Main {
     /* reverse array ise arrayin uzunluqunu tapib onu basqa bir 
     deyisene = edib her defe cap etdikden sonra -1 cixacaqdim ta ki 0-a qeder */
 
+    /* ancaq cutleri cemlemek ucun if-den istifade etmek olar misal ucun eded 0dan >= 
+    dirse o zaman cemlensin*/
+
+    /*  count characters ise sadece .length()-den istifade etmeyimiz bes edecek */
+     
+    // remove duplicates ise yeni 0 olan  ir deyisen gotrsek onu her defe ozunden sonra gelene = etsek
+    // eger bir birlerine = olars silsin
+
+    // Palindromda remove duplicates kimi etmekolar
+
+    System.out.println("Salam qaqa");
+
 
     }
 
